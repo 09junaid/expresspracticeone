@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Register Now</h2>
+        <form action="/userregister" method="POST">
+            <div class="input-group">
+                <label for="name">Username</label>
+                <input type="text" name="name" id="name" placeholder="Enter your username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="input-group">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" placeholder="Enter your age" required>
+            </div>
+
+            <button type="submit"  class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
